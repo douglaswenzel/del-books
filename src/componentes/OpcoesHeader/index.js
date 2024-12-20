@@ -10,7 +10,6 @@ const Opcao = styled.li`
     height: 100%;
     padding: 0 5px;
     cursor: pointer;
-    list-style: none;
 `
 
 const Opcoes = styled.ul`
