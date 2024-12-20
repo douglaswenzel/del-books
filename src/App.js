@@ -2,9 +2,9 @@ import './App.css';
 import Logo from './componentes/logo'
 import perfil from './img/perfil.svg'
 import sacola from './img/sacola.svg'
+import OpcoesHeader from './componentes/OpcoesHeader';
 
 
-const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'ESTANTE']
 const icones = [perfil, sacola]
 
 function App() {
@@ -12,12 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Logo></Logo>
-        <ul className='opcoes'>
-          { textoOpcoes.map( (texto) => (
-            <li className='opcao'><p>{texto}</p></li>
-          ))}
-        </ul>
-
+        <OpcoesHeader></OpcoesHeader>
 
         <ul className='icones'>
           { icones.map( (icone) => (
