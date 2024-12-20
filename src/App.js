@@ -3,9 +3,9 @@ import Logo from './componentes/logo'
 import perfil from './img/perfil.svg'
 import sacola from './img/sacola.svg'
 import OpcoesHeader from './componentes/OpcoesHeader';
+import IconesHeader from './componentes/IconesHeader';
 
 
-const icones = [perfil, sacola]
 
 function App() {
   return (
@@ -13,12 +13,7 @@ function App() {
       <header className="App-header">
         <Logo></Logo>
         <OpcoesHeader></OpcoesHeader>
-
-        <ul className='icones'>
-          { icones.map( (icone) => (
-            <li className='icone'><img src={icone} alt='icone'/></li>
-          ))}
-        </ul>
+        <IconesHeader></IconesHeader>
       </header>
     </div>
   );
