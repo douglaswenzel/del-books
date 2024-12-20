@@ -1,9 +1,9 @@
 import Logo from '../logo'
 import OpcoesHeader from '../OpcoesHeader'
 import IconesHeader from '../IconesHeader'
-import style from 'styled-components'
+import styled from 'styled-components'
 
-const HeaderContainer = style.header`
+const HeaderContainer = styled.header`
     background-color: #FFF;
     display: flex;
     justify-content: center;
