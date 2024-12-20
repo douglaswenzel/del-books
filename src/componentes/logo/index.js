@@ -10,7 +10,7 @@ function Logo() {
         className='logosvg'
         alt='Logo DeltaBooks'
              />
-        <p><strong>Delta</strong> Books</p>
+        <p><strong>Delta</strong>Books</p>
     </div>
     )
 }
